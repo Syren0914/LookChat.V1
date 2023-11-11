@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "18224278563",
+    "project_id": "lookchat-378be",
+    "storage_bucket": "lookchat-378be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18224278563:android:f8bf6c9c747d412d8d9596",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzNLhsM-WLqUnVA1uIK0sqcAo_SmtLDKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

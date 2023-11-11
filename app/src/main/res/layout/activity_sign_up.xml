@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Create account"
+        android:textColor="@color/DeepBlue"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="372dp"
+        android:layout_height="352dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/text_background"
+        android:hint="Name"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/text_background"
+        android:hint="Email or Phone number"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/text_background"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textStyle="" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/btn_background"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>
+
